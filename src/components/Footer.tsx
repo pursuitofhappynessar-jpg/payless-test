@@ -45,7 +45,12 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="/book" className="text-gray-400 hover:text-white transition-colors duration-200">
-                  Book Now
+                  Get Your Card
+                </a>
+              </li>
+              <li>
+                <a href="/reservation" className="text-gray-400 hover:text-white transition-colors duration-200">
+                  Reservation
                 </a>
               </li>
               <li>
