@@ -39,57 +39,56 @@ const Home: React.FC = () => {
 
   const destinations = [
 +    {
-+      name: 'North Coast',
-+      description: 'Pristine beaches and luxury resorts',
-+      discount: '20%',
-+      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '3000',
-+      discountedPrice: '2400'
-+    },
-+    {
-+      name: 'Sharm El Sheikh',
-+      description: 'World-class diving and coral reefs',
-+      discount: '18%',
-+      image: 'https://images.pexels.com/photos/261410/pexels-photo-261410.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '2500',
-+      discountedPrice: '2050'
-+    },
-+    {
-+      name: 'El Gouna',
-+      description: 'Modern lagoon town paradise',
-+      discount: '15%',
-+      image: 'https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '2800',
-+      discountedPrice: '2380'
-+    },
-+    {
-+      name: 'Dahab',
-+      description: 'Bohemian vibe and Blue Hole',
-+      discount: '12%',
-+      image: 'https://images.pexels.com/photos/2382681/pexels-photo-2382681.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '2000',
-+      discountedPrice: '1760'
-+    },
-+    {
-+      name: 'Luxor',
-+      description: 'Ancient temples and royal tombs',
-+      discount: '10%',
-+      image: 'https://images.pexels.com/photos/262780/pexels-photo-262780.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '1800',
-+      discountedPrice: '1620'
-+    },
-+    {
-+      name: 'Aswan',
-+      description: 'Nubian culture and Nile cruises',
-+      discount: '8%',
-+      image: 'https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=800',
-+      originalPrice: '2200',
-+      discountedPrice: '2024'
-+    }
-+  ];
-+
-+  const whyPaylessReasons = [
-+    {
+      name: 'North Coast',
+      description: 'Pristine beaches and luxury resorts',
+      discount: '20%',
+      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '3000',
+      discountedPrice: '2400'
+    },
+    {
+      name: 'Sharm El Sheikh',
+      description: 'World-class diving and coral reefs',
+      discount: '18%',
+      image: 'https://images.pexels.com/photos/261410/pexels-photo-261410.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '2500',
+      discountedPrice: '2050'
+    },
+    {
+      name: 'El Gouna',
+      description: 'Modern lagoon town paradise',
+      discount: '15%',
+      image: 'https://images.pexels.com/photos/248159/pexels-photo-248159.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '2800',
+      discountedPrice: '2380'
+    },
+    {
+      name: 'Dahab',
+      description: 'Bohemian vibe and Blue Hole',
+      discount: '12%',
+      image: 'https://images.pexels.com/photos/2382681/pexels-photo-2382681.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '2000',
+      discountedPrice: '1760'
+    },
+    {
+      name: 'Luxor',
+      description: 'Ancient temples and royal tombs',
+      discount: '10%',
+      image: 'https://images.pexels.com/photos/262780/pexels-photo-262780.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '1800',
+      discountedPrice: '1620'
+    },
+    {
+      name: 'Aswan',
+      description: 'Nubian culture and Nile cruises',
+      discount: '8%',
+      image: 'https://images.pexels.com/photos/1450363/pexels-photo-1450363.jpeg?auto=compress&cs=tinysrgb&w=800',
+      originalPrice: '2200',
+      discountedPrice: '2024'
+    }
+  ];
+
+  const whyPaylessReasons = [
 +      icon: <TrendingUp className="h-8 w-8" />,
 +      title: 'Unbeatable Discounts',
 +      description: 'Save up to 20% on your entire trip - hotels, dining, activities, and more across Egypt',

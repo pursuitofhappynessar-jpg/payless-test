@@ -35,21 +35,21 @@ interface FormErrors {
 }
 
 const Reservation: React.FC = () => {
-+  const [formData, setFormData] = useState<FormData>({
-+    fullName: '',
-+    phone: '',
-+    email: '',
-+    idSerial: '',
-+    reservationType: '',
-+    checkInDate: '',
-+    checkOutDate: ''
-+  });
-+
-+  const [errors, setErrors] = useState<FormErrors>({});
-+  const [isSubmitting, setIsSubmitting] = useState(false);
-+  const [isSubmitted, setIsSubmitted] = useState(false);
-+
-+  const reservationTypes = [
+  const [formData, setFormData] = useState<FormData>({
+    fullName: '',
+    phone: '',
+    email: '',
+    idSerial: '',
+    reservationType: '',
+    checkInDate: '',
+    checkOutDate: ''
+  });
+
+  const [errors, setErrors] = useState<FormErrors>({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const reservationTypes = [
 +    'Hotel',
 +    'Visa',
 +    'Ticket',

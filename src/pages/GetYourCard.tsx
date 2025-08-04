@@ -11,20 +11,20 @@ import {
   Shield,
   Clock
 } from 'lucide-react';
-+
-+interface FormData {
-+  fullName: string;
-+  phone: string;
-+  governorate: string;
-+}
-+
-+interface FormErrors {
-+  fullName?: string;
-+  phone?: string;
-+  governorate?: string;
-+}
-+
-+const GetYourCard: React.FC = () => {
+
+interface FormData {
+  fullName: string;
+  phone: string;
+  governorate: string;
+}
+
+interface FormErrors {
+  fullName?: string;
+  phone?: string;
+  governorate?: string;
+}
+
+const GetYourCard: React.FC = () => {
 +  const [formData, setFormData] = useState<FormData>({
 +    fullName: '',
 +    phone: '',
