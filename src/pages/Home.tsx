@@ -1,37 +1,37 @@
 import React, { useState } from 'react';
-+import { Link } from 'react-router-dom';
-+import { 
-+  MapPin, 
-+  Users, 
-+  Star, 
-+  CheckCircle, 
-+  Sparkles,
-+  ArrowRight,
-+  Shield,
-+  Globe,
-+  Clock,
-+  Download,
-+  Gift,
-+  TrendingUp,
-+  UserCheck,
-+  Zap,
-+  Percent,
-+  Award,
-+  Heart,
-+  Target,
-+  Compass,
-+  Ticket,
-+  CreditCard,
-+  Hotel,
-+  Plane,
-+  FileText,
-+  Building,
-+  ChevronDown,
-+  ChevronUp,
-+  HelpCircle
-+} from 'lucide-react';
-+import AnimationWrapper from '../components/AnimationWrapper';
-+import PaylessCard from '../components/PaylessCard';
+import { Link } from 'react-router-dom';
+import { 
+  MapPin, 
+  Users, 
+  Star, 
+  CheckCircle, 
+  Sparkles,
+  ArrowRight,
+  Shield,
+  Globe,
+  Clock,
+  Download,
+  Gift,
+  TrendingUp,
+  UserCheck,
+  Zap,
+  Percent,
+  Award,
+  Heart,
+  Target,
+  Compass,
+  Ticket,
+  CreditCard,
+  Hotel,
+  Plane,
+  FileText,
+  Building,
+  ChevronDown,
+  ChevronUp,
+  HelpCircle
+} from 'lucide-react';
+import AnimationWrapper from '../components/AnimationWrapper';
+import PaylessCard from '../components/PaylessCard';
 +
 +const Home: React.FC = () => {
 +  const [showAllVouchers, setShowAllVouchers] = useState(false);

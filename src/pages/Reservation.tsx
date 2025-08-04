@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-+import { Link } from 'react-router-dom';
-+import { 
-+  Calendar, 
-+  User, 
-+  Phone, 
-+  Mail, 
-+  CreditCard, 
-+  CheckCircle,
-+  ArrowLeft,
-+  Star,
-+  Shield,
-+  Clock,
-+  MapPin
-+} from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { 
+  Calendar, 
+  User, 
+  Phone, 
+  Mail, 
+  CreditCard, 
+  CheckCircle,
+  ArrowLeft,
+  Star,
+  Shield,
+  Clock,
+  MapPin
+} from 'lucide-react';
 +
 +interface FormData {
 +  fullName: string;
