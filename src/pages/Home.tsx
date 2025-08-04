@@ -32,12 +32,12 @@ import {
 } from 'lucide-react';
 import AnimationWrapper from '../components/AnimationWrapper';
 import PaylessCard from '../components/PaylessCard';
-+
-+const Home: React.FC = () => {
-+  const [showAllVouchers, setShowAllVouchers] = useState(false);
-+  const [openFaq, setOpenFaq] = useState<number | null>(null);
-+
-+  const destinations = [
+
+const Home: React.FC = () => {
+  const [showAllVouchers, setShowAllVouchers] = useState(false);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const destinations = [
 +    {
 +      name: 'North Coast',
 +      description: 'Pristine beaches and luxury resorts',

@@ -13,28 +13,28 @@ import {
   Clock,
   MapPin
 } from 'lucide-react';
-+
-+interface FormData {
-+  fullName: string;
-+  phone: string;
-+  email: string;
-+  idSerial: string;
-+  reservationType: string;
-+  checkInDate: string;
-+  checkOutDate: string;
-+}
-+
-+interface FormErrors {
-+  fullName?: string;
-+  phone?: string;
-+  email?: string;
-+  idSerial?: string;
-+  reservationType?: string;
-+  checkInDate?: string;
-+  checkOutDate?: string;
-+}
-+
-+const Reservation: React.FC = () => {
+
+interface FormData {
+  fullName: string;
+  phone: string;
+  email: string;
+  idSerial: string;
+  reservationType: string;
+  checkInDate: string;
+  checkOutDate: string;
+}
+
+interface FormErrors {
+  fullName?: string;
+  phone?: string;
+  email?: string;
+  idSerial?: string;
+  reservationType?: string;
+  checkInDate?: string;
+  checkOutDate?: string;
+}
+
+const Reservation: React.FC = () => {
 +  const [formData, setFormData] = useState<FormData>({
 +    fullName: '',
 +    phone: '',
